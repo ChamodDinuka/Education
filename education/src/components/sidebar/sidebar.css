@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+@media screen and (max-width: 410px) {
+    .main-side {
+      display: none;
+    }
+  }
+  .main-side {
+    width: 160px;
+    background:darkgray ;
+}
+ul{
+  padding-inline-start: 20px;
+}
+li {
+  padding: 5px;
+}
+a {
+  color: black;
+}
+a:hover{
+  color: white;
+}

@@ -1,0 +1,9 @@
+.main-nav {
+    padding: 10px;
+    background-color: cadetblue;
+    
+}
+input[type="text"] {
+    margin: 5px;
+    margin-right: 0px;
+}
