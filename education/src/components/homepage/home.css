@@ -1,0 +1,16 @@
+.main-home{
+    margin-left: 165px;
+    margin-top: -88.40vh;
+      
+}
+img#home {
+    height: 90vh;
+    width: 100%;
+}
+@media screen and (max-width: 993px) {
+    img#home {
+      margin-left: -165px;
+      margin-top: 90vh;
+
+    }
+  }

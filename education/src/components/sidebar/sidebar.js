@@ -7,6 +7,7 @@ const Sidebar=()=>{
             <li><a href="#">Institutes</a></li>
             <li><a href="#">Courses</a></li>
         </ul>
+        <div className="add-bar" ></div>
     </div>
     );
 }
