@@ -1,7 +1,7 @@
 .main-home{
     margin-left: 165px;
-    margin-top: -88.40vh;
-      
+    margin-top: -88.80vh;
+
 }
 img#home {
     height: 90vh;
@@ -9,8 +9,23 @@ img#home {
 }
 @media screen and (max-width: 993px) {
     img#home {
-      margin-left: -165px;
+      margin-left: 0px;
       margin-top: 90vh;
 
     }
+    .main-home{
+      margin-left: 0px;
+      
+        
   }
+  }
+.hame-card {
+    margin-top: -88vh;
+    margin-left: 3%;
+}
+b {
+  font-size: 20px;
+}
+card-body {
+  font-size: larger;
+}
