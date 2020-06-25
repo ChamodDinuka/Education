@@ -1,10 +1,14 @@
 import React,{Component} from 'react'
 import './login.css'
+import {Redirect,Route} from 'react-router-dom'
+
 
 class Login extends Component{
+
   state={
     email:'',
-    password:''
+    password:'',
+    key:'False'
   }
   changeEmail=(e)=>{
     this.setState({
@@ -22,11 +26,17 @@ class Login extends Component{
     e.preventDefault();
     console.log(this.state.email);
     console.log(this.state.password);
-    var key=(this.state.email=='admin@gmail.com')?"True":"False"
-    console.log(key)
-
+     this.state.key=(this.state.email==="admin@gmail.com")?"True":"False"
+     console.log(this.state.key);
+     if(this.state.key=="True"){
+     this.props.history.push({
+      pathname: '/dashboard',
+      
+    })
+  }
   }
     render(){
+      
         return(
             <div className="login-form" >
               <form onSubmit={this.submit}>
@@ -36,7 +46,9 @@ class Login extends Component{
               <button type="submit" id="sumbmit" name="submit">Login</button>
               </form>
             </div>
+            
         );
+        
         }
 }
 export default Login

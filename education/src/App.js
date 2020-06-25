@@ -5,6 +5,7 @@ import Navbar from './components/navbar/navbar'
 import Sidebar from './components/sidebar/sidebar'
 import Home from './components/homepage/home'
 import Login from './components/login/login'
+import Dashboard from './components/dashboard/dashboard'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Sidebar/>
         <Route exact path='/' component={Home}/>
         <Route exact path='/login' component={Login}/>
+        <Route exact path='/dashboard' component={Dashboard}/>
       </BrowserRouter>
     </div>
   );
