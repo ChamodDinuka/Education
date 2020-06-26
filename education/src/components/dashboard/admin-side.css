@@ -1,0 +1,6 @@
+.admin_side {
+    width: 160px;
+    background: darkcyan;
+    position: sticky;
+    top: 30%;
+}
