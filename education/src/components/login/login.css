@@ -1,6 +1,6 @@
 .login-form {
-    margin-left: 40%;
-    margin-top: -500px;
+    height: 25vh;
+    margin-top: 20vh;
     background: slategray;
     width: 300px;
     padding: 20px;
@@ -14,8 +14,9 @@ h1 {
 }
 button#sumbmit {
     background: #4CAF50;
-    width: 25%;
-    padding: 3px;
+    height: 30px;
+    border-radius: 10px;
+   
 }
 @media screen and (max-width: 993px) {
     .login-form {
@@ -30,4 +31,10 @@ button#sumbmit {
     width: 90%;
     margin-left: 0px;
 }
+}
+.login-area {
+    justify-content: center;
+    height: 95vh;
+    display: flex;
+    background: darkslategray;
 }

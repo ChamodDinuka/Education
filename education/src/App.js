@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Navbar from './components/navbar/navbar'
-import Sidebar from './components/sidebar/sidebar'
 import Home from './components/homepage/home'
 import Login from './components/login/login'
 import Dashboard from './components/dashboard/dashboard'
@@ -27,7 +26,7 @@ function App() {
       </>
     )}
   />
-        <Sidebar/>
+       
         </Switch>
         <Route exact path='/' component={Home}/>
         <Route exact path='/login' component={Login}/>

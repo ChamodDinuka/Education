@@ -1,31 +1,72 @@
-.main-home{
-    margin-left: 165px;
-    margin-top: -88.80vh;
 
+img#home-top {
+  width: 100%;
+
+  
 }
 img#home {
     height: 90vh;
     width: 100%;
 }
 @media screen and (max-width: 993px) {
-    img#home {
-      margin-left: 0px;
-      margin-top: 90vh;
+  }
 
-    }
-    .main-home{
-      margin-left: 0px;
-      
-        
-  }
-  }
-.hame-card {
-    margin-top: -88vh;
-    margin-left: 3%;
-}
 b {
   font-size: 20px;
 }
-card-body {
-  font-size: larger;
+img#home-middle {
+  width: 100%;
+}
+button#course {
+
+  color: white;
+  position: fixed;
+  background: green !important;
+  padding: 10px;
+  top: 50%;
+  margin-left: 90%;
+  cursor: pointer;
+}
+.card-set {
+  display: inline-flex;
+  margin-left: 10%;
+  width: 80%;
+}
+.card-set2 {
+  display: inline-flex;
+  margin-left: 20%;
+  width: 60%;
+}
+card:hover {
+  border: outset;
+  border-color: firebrick;
+}
+card#second:hover {
+  border: none;
+  transition-duration: 1.5s;
+  background: orange;
+}
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+card {
+  width: 33.33%;
+}
+card#second {
+  width: 50%;
+}
+ul {
+  list-style: none;
+}
+li#second:hover {
+  list-style-type: square;
+}
+li#second {
+  list-style: circle;
 }

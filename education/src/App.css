@@ -1,6 +1,7 @@
 .App{
-    height: 100vh;
-    background: darkslategrey;
+    height: 100%;
+    min-height: 100vh;
+   
 }
 .main-nav {
     position: sticky;

@@ -38,6 +38,7 @@ class Login extends Component{
     render(){
       
         return(
+          <div className="login-area">
             <div className="login-form" >
               <form onSubmit={this.submit}>
               <h1>Login</h1>
@@ -46,7 +47,7 @@ class Login extends Component{
               <button type="submit" id="sumbmit" name="submit">Login</button>
               </form>
             </div>
-            
+            </div>  
         );
         
         }

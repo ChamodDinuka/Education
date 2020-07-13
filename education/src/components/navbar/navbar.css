@@ -1,16 +1,31 @@
 .main-nav {
     padding: 10px;
     background-color: cadetblue;
+    padding-top: 0px;
+
     
+}
+input#searh {
+    border-radius: 10px;
+    width: 300px;
+    height: 23px;
 }
 input[type="text"] {
     margin: 5px;
     margin-right: 0px;
+    
 }
 ul#nav {
     display: inline-flex;
     padding-left: 0px;
+    list-style: none;
 }
 ul#nav1 {
     display: inline-flex;
+    list-style: none;
+    cursor: pointer;
+}
+img#logo{
+    height: 40px;
+    vertical-align: middle;
 }
