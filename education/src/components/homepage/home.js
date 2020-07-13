@@ -7,7 +7,7 @@ const Home=()=>{
 
         
     <div className="main-home"  >
-        <><button type="submit" id="course">Find Courses</button></>
+        <><button type="submit" id="course" onClick={(e) => {e.preventDefault();window.location.href='http://localhost:3000/courses';}}>Find Courses</button></>
     
     <img id="home-top"src={home}/>
     <h2>OUR SERVICES</h2>

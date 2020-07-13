@@ -7,6 +7,7 @@ import Login from './components/login/login'
 import Dashboard from './components/dashboard/dashboard'
 import Insert from './components/dashboard/insert./insert'
 import Admin_side from './components/dashboard/admin-side'
+import View from './components/view/view'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         </Switch>
         <Route exact path='/' component={Home}/>
         <Route exact path='/login' component={Login}/>
+        <Route exact path='/courses' component={View}/>
         
       </BrowserRouter>
     </div>

@@ -1,6 +1,7 @@
 const express=require('express');
 const bodyParser=require('body-parser');
 const mongoose=require('mongoose')
+const cors=require('cors');
 const Course=require('./routes')
 
 mongoose.connect('mongodb+srv://kalpa:19970708@education-uf2ic.mongodb.net/education?retryWrites=true&w=majority', {useNewUrlParser: true,useUnifiedTopology: true})
@@ -15,6 +16,7 @@ mongoose.connect('mongodb+srv://kalpa:19970708@education-uf2ic.mongodb.net/educa
  // client.close();
 //});
 const app=express();
+app.use(cors());
 app.use(bodyParser.json());
 
 app.post('/',async(req,res,next)=>{
